@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#id-ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4.7em;
+    align-items: center;
+}
+
+#id-li {
+  list-style: none;
+  margin-right: 3.4em;
+  font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#id-li:hover {
+    background:  #EE741D;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#logo {
+    height: 3em;
+    margin-right: 8em;
+}

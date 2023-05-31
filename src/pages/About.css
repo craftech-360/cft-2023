@@ -1,0 +1,131 @@
+
+#banner{
+    max-width: 100vw;
+}
+
+#pad{
+    padding: 0 10em 0 10em;
+}
+
+.div-row{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+p{
+    text-align: start;
+}
+
+#hug{
+    align-self: flex-start;
+}
+
+.div-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#gradient-box {
+    max-width: 30em;
+    min-height: 2em;
+    border-radius: 1em;
+    background-image:linear-gradient(to right, #EE741D, #FFCD00);
+}
+
+#instagram{
+    max-width: 14.3em;
+    min-height: 1.5em;
+    border-radius: 1em;
+    color: white;
+    background-color: #111111;
+    font-size: 1.2em;
+    border: none;
+}
+
+
+h4{
+    color: #FFCD00;
+}
+
+#carousel-inner {
+    margin-top: 3rem;
+}
+
+#carousel-outer{
+background-color: #250F00;
+}
+
+#inner1{
+    position: relative;
+    overflow: hidden;
+    height: 5rem;
+    width: 200%;
+}
+
+.mx {
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+#inner2{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    left: 0;
+    gap: 5rem;
+    width: 200%;
+    height: 5rem;
+}
+
+#inner3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    width: 20rem;
+}
+
+@keyframes scroll {
+    0% {
+    left: 0;
+    }
+    100% {
+    left: -200%;
+    }
+}
+    
+.animate {
+    animation: scroll 55s linear infinite;
+}
+
+.bw{
+    filter: grayscale(100%)
+}
+
+.bw:hover{
+    filter: none;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .mx {
+      margin-left: 0;
+      margin-right: 0;
+   }
+
+   .div-row{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+  
+  }

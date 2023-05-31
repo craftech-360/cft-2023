@@ -1,0 +1,36 @@
+#inner-box-portfolio {
+  width: 83em;
+  height: 2em;
+  border-radius: 1em;
+  color: white;
+  background-color: #111111;
+  font-size: 1em;
+  border: 0.1em solid #ffcd00;
+  font-weight: bold;
+}
+
+#inner-box {
+  width: 83em;
+  height: 2em;
+  border-radius: 2em;
+  color: white;
+  background-color: #111111;
+  font-size: 1em;
+  border: 0.1em solid #ffcd00;
+  font-weight: bold;
+}
+
+#inner-box:hover {
+  background-color: #ffcd00;
+}
+
+#inner-box-portfolio:hover {
+  background-color: #ffcd00;
+}
+
+.grid-portfolio {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+  grid-gap: 1em;
+}
